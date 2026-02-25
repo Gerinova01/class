@@ -17,9 +17,12 @@ class Student:
 
     def __str__(self):
         return (f'{self.name}, {self.age}, {self.height}, {self.gender}, {self.score}')
+    
+    def introduce(self):
+        return f"Hello my name is {self.name}"
 
 lajos = Student("Lajos", 13, 178, "Attack helicopter")
-anna = Student("Anna", 15, 170. "B8-Bomber-plane")
+anna = Student("Anna", 15, 170, "B8-Bomber-plane")
 print(lajos.height)
 lajos.name = "Lajos"
 lajos.age = 13
